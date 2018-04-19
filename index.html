@@ -1,63 +1,67 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>Wikipedia Viewer - Final</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
 
-      <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
-  
+
 </head>
 
 <body>
 
   <script src="https://use.fontawesome.com/7a621ef410.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Quicksand|Lato" rel="stylesheet">
-<body>
-  <div class="container">    
-    <div class="row">      
-      <div class="col-sm-12">
-            <!--Create header-->
-  <h1>Wikipedia Viewer</h1>        
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Lato" rel="stylesheet">
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!--Create header-->
+          <h1>Wikipedia Viewer</h1>
+        </div>
       </div>
-    </div>    
-     <div class="row">      
-      <div class="col-sm-12">
-                    <!--Create random article link-->
-        <h2><a href= "https://en.wikipedia.org/wiki/Special:Random" id="random">Random Article </a></h2>        
+      <div class="row">
+        <div class="col-sm-12">
+          <!--Create random article link-->
+          <h2>
+            <a href="https://en.wikipedia.org/wiki/Special:Random" id="random">Random Article </a>
+          </h2>
+        </div>
+      </div>
+      <!--Create form for searchbox and search button-->
+      <div class="row">
+        <div class="col-sm-4 offset-sm-4">
+          <div class="searchbox input-group">
+            <input type="text" class="form-control" id="search-bar" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-secondary" type="submit" id="submit-button" action="www.google.com">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 ">
+          <div id="resultsbox">
+
+          </div>
+        </div>
       </div>
     </div>
-                <!--Create form for searchbox and search button-->
-        <div class="row">      
-      <div class="col-sm-4 offset-sm-4">
-       <div class="searchbox input-group">         
-      <input type="text" class="form-control" id="search-bar" placeholder="Search for..."> 
-         <span class="input-group-btn">
-           <button class="btn btn-secondary" type="submit" id="submit-button" action="www.google.com">
-             <i class="fa fa-search" aria-hidden="true"></i>               
-             </button>               
-             </span>          
-      </div>
-    </div>
-  </div>
-  <div class="row">      
-      <div class="col-sm-12 ">
-        <div id="resultsbox">
-                      
-    </div>
-  </div>
-  </div>
-  </div> <!--closes out div container-->
-</body>
+    <!--closes out div container-->
+  </body>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 
-  
 
-    <script  src="js/index.js"></script>
+
+  <script src="js/index.js"></script>
 
 
 

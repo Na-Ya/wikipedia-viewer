@@ -1,79 +1,82 @@
-body{
-font-size: 100%;  
-font-family: quicksand;
-background-color: #f9d7de;
-background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0V0zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm20 0a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 37a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm10-17h20v20H20V20zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14z' fill='%23f9f8fb' fill-opacity='0.68' fill-rule='evenodd'/%3E%3C/svg%3E"); 
+body {
+	font-size: 100%;
+	font-family: quicksand;
+	background-color: #f9d7de;
+	background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0V0zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm20 0a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 37a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm10-17h20v20H20V20zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14z' fill='%23f9f8fb' fill-opacity='0.68' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
-h1{
-  font-size:300%;
-  padding:20px;
-  padding-bottom:40px;
-  font-weight:bold;
-  color: #F2545B;  
+h1 {
+	font-size: 300%;
+	padding: 20px;
+	padding-bottom: 40px;
+	font-weight: bold;
+	color: #f2545b;
 }
 
-.container{
-  text-align:center;  
+.container {
+	text-align: center;
 }
 
-.searchbox{
-  text-align:left;
-  padding:10px;
+.searchbox {
+	text-align: left;
+	padding: 10px;
 }
 
-#resultsbox{
-  text-align:left;
-  font-size: 120%;   
+#resultsbox {
+	text-align: left;
+	font-size: 120%;
 }
 
-.btn{
- background-color: #F2545B;
- color:white;
+.btn {
+	background-color: #f2545b;
+	color: white;
 }
 
-.btn:hover{
- background-color: white;
- color:#F2545B;
+.btn:hover {
+	background-color: white;
+	color: #f2545b;
 }
 
-#random{
-  color:#1B9AAA;
-  text-decoration:none;
-  font-family:Lato;
+#random {
+	color: #1b9aaa;
+	text-decoration: none;
+	font-family: Lato;
 }
 
-#random:hover, #random:active {
- color:#F2545B;
- text-decoration:none;  
+#random:hover,
+#random:active {
+	color: #f2545b;
+	text-decoration: none;
 }
 
-.divlink{
-  display: block;
-  padding: 5px;
-  margin: 5px;
-  text-decoration:none;
-  background-color:#f9d7de;
-  color:black;
-  cursor: pointer;
-  border-radius: 20px;
-  border: 1px dashed #19323C;  
-} 
-
-.divlink:link, .divlink:visited{
-  text-decoration:none;
-  background-color:grey;
-  color:white;
-  cursor: pointer;
-  border-radius: 20px;
-  border: 1px dashed #19323C;
+.divlink {
+	display: block;
+	padding: 5px;
+	margin: 5px;
+	text-decoration: none;
+	background-color: #f9d7de;
+	color: black;
+	cursor: pointer;
+	border-radius: 20px;
+	border: 1px dashed #19323c;
 }
 
-.divlink:hover, .divlink:active{
-  text-decoration:none;
-  background-color:#F2545B;
-  color:white;
-  cursor: pointer;
-  border-radius: 20px;
-  border: 1px dashed #19323C;
+.divlink:link,
+.divlink:visited {
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px;
+	border: 1px dashed #19323c;
+}
+
+.divlink:hover,
+.divlink:active {
+	text-decoration: none;
+	background-color: #f2545b;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px;
+	border: 1px dashed #19323c;
 }
